@@ -1,0 +1,75 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background: #f5f7fa;
+color: #1a1a1a;
+}
+.container {
+max-width: 900px;
+margin: auto;
+padding: 20px;
+}
+header {
+text-align: center;
+padding: 20px 0;
+}
+.subtitle {
+color: #0a1f44;
+}
+.invoice-box, .payment-section, .support-section {
+background: white;
+padding: 20px;
+margin-top: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.method {
+margin-top: 20px;
+}
+.method img {
+max-width: 200px;
+display: block;
+margin-bottom: 10px;
+}
+.disabled-card input {
+display: block;
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+background: #eee;
+border: 1px solid #ccc;
+}
+.card-message {
+color: #b00020;
+}
+.confirm-btn {
+width: 100%;
+padding: 15px;
+margin-top: 20px;
+background: #0a1f44;
+color: white;
+font-size: 16px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+.confirm-btn:hover {
+background: #132e66;
+}
+footer {
+text-align: center;
+margin-top: 30px;
+font-size: 14px;
+color: #555;
+}
+.invalid-message {
+color: red;
+text-align: center;
+margin-top: 20px;
+font-weight: bold;
+}
+@media (max-width: 600px) {
+.container {
+padding: 10px;
+}
+}

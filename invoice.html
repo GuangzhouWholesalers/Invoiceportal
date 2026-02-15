@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Invoice Payment Portal - Guangzhou Wholesalers</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<header>
+<h1>Guangzhou Wholesalers</h1>
+<p class="subtitle">Official Invoice Payment Portal</p>
+</header>
+
+<div id="invalidMessage" class="invalid-message"></div>
+
+<section class="invoice-box" id="invoiceBox">
+<h2>Invoice Summary</h2>
+<p><strong>Company Name:</strong> Guangzhou Wholesalers</p>
+<p><strong>Invoice Reference:</strong> <span id="invoiceRef"></span></p>
+<p><strong>Status:</strong> Awaiting Payment</p>
+<p class="instruction">
+Please complete payment using one of the approved methods below.
+</p>
+</section>
+
+<section class="payment-section">
+<h2>Official Payment Methods</h2>
+
+<div class="method">
+<h3>Binance Pay</h3>
+<img src="assets/Binance-qr.jpg" alt="Official Binance Pay QR">
+<p><strong>Official Binance Pay QR</strong></p>
+<p>Scan using Binance Pay app. After payment, click Confirm Payment.</p>
+</div>
+
+<div class="method">
+<h3>Alipay</h3>
+<img src="assets/Images (2).jpeg" alt="Alipay QR">
+<p><strong>Receiver Name:</strong> Guangzhou Wholesalers</p>
+<p>Scan using Alipay. After payment, click Confirm Payment.</p>
+</div>
+
+<div class="method disabled-card">
+<h3>Credit / Debit Card (Temporarily Unavailable)</h3>
+<input type="text" placeholder="Card Number" disabled>
+<input type="text" placeholder="Expiry" disabled>
+<input type="text" placeholder="CVV" disabled>
+<input type="text" placeholder="Cardholder Name" disabled>
+<p class="card-message">
+Card payments are temporarily unavailable.
+Please use Binance Pay or Alipay.
+</p>
+</div>
+</section>
+
+<button id="confirmBtn" class="confirm-btn">
+I HAVE COMPLETED PAYMENT
+</button>
+
+<section class="support-section">
+<h2>Regional Customer Support Representatives</h2>
+<ul>
+<li>Ethiopia – <a href="#" class="support-link" data-user="dagmawi111">@dagmawi111</a></li>
+<li>Kenya – <a href="#" class="support-link" data-user="AdibayorGuangzhouWS">@AdibayorGuangzhouWS</a></li>
+<li>Nigeria – <a href="#" class="support-link" data-user="MichaelUganbeGuang">@MichaelUganbeGuang</a></li>
+<li>Tanzania – Support Representative</li>
+<li>Ghana – Support Representative</li>
+<li>Uganda – Support Representative</li>
+<li>Europe – SEPA / Revolut Assistance</li>
+</ul>
+</section>
+
+<footer>
+<p>Contact: support@guangzhouws.com</p>
+<p>
+<a href="terms.html">Terms</a> |
+<a href="privacy.html">Privacy</a> |
+<a href="refund.html">Refund Policy</a>
+</p>
+<p class="disclaimer">
+This portal is exclusively for customers who have received an official invoice.
+Payments are handled externally via QR code and confirmed manually.
+</p>
+</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
